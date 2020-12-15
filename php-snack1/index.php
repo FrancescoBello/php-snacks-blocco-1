@@ -35,7 +35,7 @@ $matches= [
 ];
 
   for ($i=0; $i < count($matches) ; $i++) {
-    echo ($matches[$i]["home"] . "-" . $matches[$i]["visitors"] . " | " . $matches[$i]["homePoint"] . " - " . $matches[$i]["visitorsPoint"]);
+    echo ($matches[$i]["home"] . " - " . $matches[$i]["visitors"] . " | " . $matches[$i]["homePoint"] . " - " . $matches[$i]["visitorsPoint"]) . "<br>";
   }
 
 
