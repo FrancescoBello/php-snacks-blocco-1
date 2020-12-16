@@ -3,10 +3,10 @@
   $email  = $_GET ['email'];
   $age    = $_GET ['age'];
 
- if (count($name) < 3 ) {
-   echo "Accesso n ";
+ if (strlen($name) < 3 ) {
+   echo "Accesso negato ";
  }else {
-   echo "Accesso r ";
+   echo "Accesso riuscito ";
  };
 
  if (is_nan($age)!== false) {
