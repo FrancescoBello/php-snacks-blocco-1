@@ -10,7 +10,6 @@
 if((strpos($email, '.') !== false) && (strpos($email, '@') !== false) && (strlen($name) > 3) && (is_numerin($age)!== false)) {
    echo " riuscito";
 } else {
-
    echo " negato";
 }
 
